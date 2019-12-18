@@ -4,6 +4,15 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 @import "status-bar.css";
 @import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
+@import "find.css";
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
   padding: 10px 20px; /*TopBottom , LeftRight*/
@@ -14,4 +23,5 @@ body {
 
 a {
   color: inherit; /* 부모요소의 Style 상속 */
+  text-decoration: none; /* a테그 밑줄없애기 */
 }

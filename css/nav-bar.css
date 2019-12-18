@@ -1,0 +1,40 @@
+.nav {
+  position: fixed; /*레이어를 뜯어냄, 새로이 width 지정필요*/
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 20px 50px; /*Top&Bottom Left&Right*/
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav i {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .nav__badge {
+  position: absolute; /*반드시부모속성 position: relative*/
+  top: -10px;
+  right: -10px;
+  font-size: 10px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
